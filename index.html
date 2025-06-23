@@ -1,19 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Delete Account</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff9f5;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(255, 102, 0, 0.15);
+      border-left: 6px solid #ff6600;
+    }
+
+    h1 {
+      color: #ff6600;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    ol {
+      padding-left: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    ol li {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      color: #ff6600;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Delete Your Account</h1>
-  <p>You can delete your account and all associated data directly from within the mobile app.</p>
-  <p>Steps:</p>
-  <ol>
-    <li>Open the app</li>
-    <li>Go to Settings → Account</li>
-    <li>Tap “Delete My Account”</li>
-    <li>Confirm to permanently delete your data</li>
-  </ol>
-  <p>If you face any issues, contact: <a href="mailto:iconize.eg@gmail.com">iconize.eg@gmail.com</a></p>
+  <div class="container">
+    <h1>Delete Your Account</h1>
+    <p>You can request the deletion of your account and all associated data directly from within our mobile app.</p>
+    <p><strong>To delete your account:</strong></p>
+    <ol>
+      <li>Open the mobile app.</li>
+      <li>Go to <strong>Settings</strong>.</li>
+      <li>Select <strong>Account</strong>.</li>
+      <li>Tap on <strong>"Delete My Account"</strong>.</li>
+      <li>Confirm the deletion request.</li>
+    </ol>
+    <p>If you encounter any issues or have questions, please contact us at:  
+      <a href="mailto:support@yourapp.com">support@yourapp.com</a>
+    </p>
+  </div>
 </body>
 </html>
